@@ -1,0 +1,74 @@
+.nav1{
+    background-color: rgb(138, 85, 25);
+    color: black;
+    font-weight: bolder;
+}
+.nav2:hover{
+   border-bottom: 2px solid yellow;
+   font-weight: bolder;
+}
+h1,h3,p{
+    text-align: center;
+}
+.btn1{
+    margin-left: 35%;
+}
+.card-title{
+    color: rgb(56, 117, 230);
+    text-align: center;
+}
+
+/* about style */
+.about-role{
+   color: brown;
+}
+.history{
+    text-align: left;
+}
+
+/*contact page */
+
+.input1{
+    border-bottom: 2px solid gray;
+    background-color: green;
+}
+.faq1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.ind-img{
+    width: 15rem;
+}
+
+/* for mobile version */
+
+@media only screen and (max-width: 600px) {
+/* for contact page */
+.img1{
+    object-fit: cover;
+}
+.faq1{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.btn-sub{
+    margin-left: 35%;
+}
+/* about page */
+.abou-img{
+    width: 100%;
+margin-left: 5%;
+}
+/* index page */
+.btn1{
+    margin-left:8%;
+}
+.ind-img{
+    width: 20rem;
+    margin-right: 5%;
+}
+.ind-cart{
+    margin-top: 8%;
+}
+
+}
